@@ -1,6 +1,6 @@
-## Overtime App
+# Overtime App
 
-Key requiremnets: compnay needs doucmentation that salaried employees did or did not get overtime each week
+## Key requiremnets: compnay needs doucmentation that salaried employees did or did not get overtime each week
 
 ## Models
 - Post -> date:date rationale:text
