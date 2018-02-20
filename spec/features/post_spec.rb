@@ -21,11 +21,11 @@ describe 'navigate' do
 
     it 'can be created from new form page' do
       visit new_post_path
-      
+
       fill_in 'post[date]', with: Date.today
       fill_in 'post[rationale]', with: "Some rationale"
 
-      click_on "Save"
+      click_on "Submit"
 
       expect(page).to have_content("Some rationale")
     end
