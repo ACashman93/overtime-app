@@ -2,6 +2,10 @@
 
 puts "1 User created"
 
+AdminUser.create(email: "admin@test.com", password: "123456", password_confirmation: "123456", last_name: "Cashman", first_name: "Andrew")
+
+puts "1 AdminUser created"
+
 100.times do |post|
   Post.create!(date: Date.today, rationale: "This is my rationale content ##{post}", user_id: @user.id)
 end
