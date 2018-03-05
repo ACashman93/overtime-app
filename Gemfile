@@ -25,6 +25,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'selenium-webdriver'
   gem 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
+  gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 end
 
 group :development do
@@ -44,4 +45,5 @@ gem 'administrate', '~> 0.9.0'
 gem 'bourbon', '~> 5.0'
 gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 5.7'
+
 
