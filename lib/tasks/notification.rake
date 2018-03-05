@@ -8,9 +8,5 @@ namespace :notification do
     # User.all.each do |user|
     #   SmsTool.send_smsa(number:)
     # end
-    number:"5555553323"
-    # no spaces
-    # exactly 10 characters
-    # all characters have to be numbers
   end
 end
