@@ -45,5 +45,6 @@ gem 'administrate', '~> 0.9.0'
 gem 'bourbon', '~> 5.0'
 gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 5.7'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 
