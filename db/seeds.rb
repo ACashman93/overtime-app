@@ -34,9 +34,11 @@ end
 
 puts "100 Admin Posts created"
 
-100.times do |audit_log|
+2.times do |audit_log|
   AuditLog.create(user_id: @user.id, status: 0, start_date: (Date.today - 6.days))
+  AuditLog.create(user_id: @user.id, status: 0, start_date: (Date.today - 13.days))
+  AuditLog.create(user_id: @user.id, status: 0, start_date: (Date.today - 20.days))
 end
 
-puts "100 AuditLogs created"
+puts "6 AuditLogs created"
 
