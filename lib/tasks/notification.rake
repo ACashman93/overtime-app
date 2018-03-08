@@ -9,4 +9,16 @@ namespace :notification do
     #   SmsTool.send_smsa(number:)
     # end
   end
+
+  desc "Sends mail notification to managers (admin users) each day to inform of pending overtime requests."
+  task manager_email: :environment do
+    submitted_posts = Post.pending
+    admin_users = AdminUser.all
+
+    if submitted_posts.count > 0
+      admin_users.each do |admin|
+        ManagerMailer.email(admin).deliver_now
+      end
+    end
+  end
 end
