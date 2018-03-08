@@ -25,6 +25,12 @@ end
 
 puts "100 Posts created"
 
+AuditLog.create(user_id: @user.id, status: 0, start_date: (Date.today - 6.days))
+AuditLog.create(user_id: @user.id, status: 0, start_date: (Date.today - 13.days))
+AuditLog.create(user_id: @user.id, status: 0, start_date: (Date.today - 20.days))
+
+puts "3 AuditLogs created"
+
 50.times do |post|
   Post.create!(date: Date.today,
                 rationale: "This is my rationale content ##{post}",
@@ -34,11 +40,4 @@ end
 
 puts "100 Admin Posts created"
 
-1.times do |audit_log|
-  AuditLog.create(user_id: @user.id, status: 0, start_date: (Date.today - 6.days))
-  AuditLog.create(user_id: @user.id, status: 0, start_date: (Date.today - 13.days))
-  AuditLog.create(user_id: @user.id, status: 0, start_date: (Date.today - 20.days))
-end
-
-puts "6 AuditLogs created"
 
