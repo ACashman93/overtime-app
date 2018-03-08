@@ -6,15 +6,15 @@
 - x Post -> date:date rationale:text
 - x User -> Devise
 - x AdminUser -> STI
-- AuditLog
+- x AuditLog
 
 ## Features:
-- Approval Workflow
+- x Approval Workflow
 - SMS Sending -> link to approval or overtime input -> integrate with heroku scheduler
 - x Administrate admin dashboard
 - x Block non-admin and guest users
 - Emails summary to managers for approval
-- Needs to be documented if if employee did not log overtime
+- x Needs to be documented if if employee did not log overtime
 
 ## UI
 - x Bootstrap formatting
