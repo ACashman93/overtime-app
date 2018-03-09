@@ -10,11 +10,13 @@
 
 ## Features:
 - x Approval Workflow
-- SMS Sending -> link to approval or overtime input -> integrate with heroku scheduler
+- x SMS Sending -> link to approval or overtime input -> integrate with heroku scheduler
 - x Administrate admin dashboard
 - x Block non-admin and guest users
-- Emails summary to managers for approval
+- x Emails summary to managers for approval (not implemented)
 - x Needs to be documented if if employee did not log overtime
+- Create audit log for each text message sent
+- Need to update end date when confirmed
 
 ## UI
 - x Bootstrap formatting
