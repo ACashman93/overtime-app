@@ -47,5 +47,6 @@ gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 5.7'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'rails_12factor', '~> 0.0.3'
+gem 'newrelic_rpm'
 
 ruby "2.4.0"

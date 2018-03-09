@@ -22,9 +22,9 @@
 - x Update buttons to include time span
 - x Update button sort order on employee homepage
 - x Remove unecessary nav bar buttons for managers
-- Fix admin dashboard bug
-- Implement honeybadger for error reporting
-- Implement new relic for keeping the site alive
+- x Fix admin dashboard bug
+- x Implement honeybadger for error reporting
+- x Implement new relic for keeping the site alive
 
 ## UI
 - x Bootstrap formatting
