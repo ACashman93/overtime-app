@@ -18,6 +18,13 @@
 - x Create audit log for each text message sent
 - Need to update end date when confirmed
 - Need to update the audit log status when an overtime status has been rejected
+- Update buttons on employee homepage so they show on mobile
+- Update buttons to include time span
+- Update button sort order on employee homepage
+- Remove unecessary nav bar buttons for managers
+- Fix admin dashboard bug
+- Implement honeybadger for error reporting
+- Implement new relic for keeping the site alive
 
 ## UI
 - x Bootstrap formatting
