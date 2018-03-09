@@ -15,8 +15,9 @@
 - x Block non-admin and guest users
 - x Emails summary to managers for approval (not implemented)
 - x Needs to be documented if if employee did not log overtime
-- Create audit log for each text message sent
+- x Create audit log for each text message sent
 - Need to update end date when confirmed
+- Need to update the audit log status when an overtime status has been rejected
 
 ## UI
 - x Bootstrap formatting
